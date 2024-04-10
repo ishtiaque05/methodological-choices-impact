@@ -1,7 +1,8 @@
+You can download the datasource.zip from this google drive [link](https://drive.google.com/file/d/1VqmMs6Oi2vorQqlyq5VD4a8BMPzU5RaO/view?usp=sharing) and extract it in the project root folder. This extracted folder will be used to prepare the data and generate answer for the research questions
+
 The datasource.zip file contains 2 folders: `repo-data` and `bugData` which was used as data source for the experiment.
 The `scripts` folder contains all the source code used to process data and generate the graphs.
 
-You can also download the datasource.zip from this google drive [link](https://drive.google.com/file/d/1VqmMs6Oi2vorQqlyq5VD4a8BMPzU5RaO/view?usp=sharing)
 
 ## repo-data 
 This folder contains 53 `.json` files, each belonging to one of the 53 Java open-source projects.
@@ -93,6 +94,8 @@ We identified bug-fix commit using two approaches:
 ## Appendix
 
 53 projects information: [53ProjectsStats.csv](/Stats/53ProjectsStats.csv)
+
+# Reproduction steps:
 
 To generate the data run:
 1. Extract datasource.zip in the root folder
