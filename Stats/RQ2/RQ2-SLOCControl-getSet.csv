@@ -1,0 +1,7 @@
+d,size,w,p_value,significant,grp1 (no get and set),grp2 (get and set present),density type
+0.01189061819,negligible,521384468694,5.27E-54,yes,small,small,revision density
+-3.22E-05,negligible,1329870007,0.9928292323,no,medium,medium,revision density
+-0.0001915599376,negligible,241700481,0.9722248463,no,large ,large,revision density
+0.01239333083,negligible,521643495268,4.06E-169,yes,small,small ,bug density
+2.34E-05,negligible,1329944035,0.9929513447,no,medium,medium,bug density
+-0.000309913112,negligible,241671869.5,0.9407209975,no,large,large,bug density

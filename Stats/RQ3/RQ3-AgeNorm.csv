@@ -1,0 +1,31 @@
+d,size,w,p_value,significant,grp1,grp2,correlation group
+-0.4079743681,medium,831.5,0.0002948354834,yes,No Age Normalization,0.5 yrs,SLOC_with_Revisions
+-0.3905304379,medium,856,0.0005303669406,yes,No Age Normalization,1 yr,SLOC_with_Revisions
+-0.3620505518,medium,896,0.001316284054,yes,No Age Normalization,2 yrs,SLOC_with_Revisions
+-0.2445710217,small,1061,0.0300876196,yes,No Age Normalization,3 yrs,SLOC_with_Revisions
+-0.1263794945,negligible,1227,0.2630723936,no,No Age Normalization,4 yrs,SLOC_with_Revisions
+-0.008543965824,negligible,1392.5,0.9420167087,no,0.5 yrs,1 yr,SLOC_with_Revisions
+0.02456390174,negligible,1439,0.8297480745,no,0.5 yrs,2 yrs,SLOC_with_Revisions
+0.1388394446,negligible,1599.5,0.2187403345,no,0.5 yrs,3 yrs,SLOC_with_Revisions
+0.2189391242,small,1712,0.05225022208,no,0.5 yrs,4 yrs,SLOC_with_Revisions
+0.03346386614,negligible,1451.5,0.7686836516,no,1 yr,2 yrs,SLOC_with_Revisions
+0.1324314703,negligible,1590.5,0.2407964414,no,1 yr,3 yrs,SLOC_with_Revisions
+0.2135991456,small,1704.5,0.0582719834,no,1 yr,4 yrs,SLOC_with_Revisions
+0.1053755785,negligible,1552.5,0.3509332646,no,2 yrs,3 yrs,SLOC_with_Revisions
+0.1861872553,small,1666,0.09889912068,no,2 yrs,4 yrs,SLOC_with_Revisions
+0.09077963688,negligible,1532,0.4219348672,no,3 yrs,4 yrs,SLOC_with_Revisions
+-0.1751512994,small,1158.5,0.1198916287,no,No Age Normalization,0.5 yrs,SLOC_with_Bugs
+-0.2424350303,small,1064,0.03137066407,yes,No Age Normalization,1 yr,SLOC_with_Bugs
+-0.2573869705,small,1043,0.02228775322,yes,No Age Normalization,2 yrs,SLOC_with_Bugs
+-0.2346030616,small,1075,0.03730074265,yes,No Age Normalization,3 yrs,SLOC_with_Bugs
+-0.1505873977,small,1193,0.1815216408,no,No Age Normalization,4 yrs,SLOC_with_Bugs
+-0.07547169811,negligible,1298.5,0.5039727861,no,0.5 yrs,1 yr,SLOC_with_Bugs
+-0.09398362407,negligible,1272.5,0.4047943287,no,0.5 yrs,2 yrs,SLOC_with_Bugs
+-0.06728373087,negligible,1310,0.5516293204,no,0.5 yrs,3 yrs,SLOC_with_Bugs
+0.0163759345,negligible,1427.5,0.8866128259,no,0.5 yrs,4 yrs,SLOC_with_Bugs
+-0.0281238875,negligible,1365,0.8049529985,no,1 yr,2 yrs,SLOC_with_Bugs
+-0.005695977216,negligible,1396.5,0.9621382374,no,1 yr,3 yrs,SLOC_with_Bugs
+0.08971164115,negligible,1530.5,0.426685392,no,1 yr,4 yrs,SLOC_with_Bugs
+0.02135991456,negligible,1434.5,0.8518411815,no,2 yrs,3 yrs,SLOC_with_Bugs
+0.1085795657,negligible,1557,0.3358915931,no,2 yrs,4 yrs,SLOC_with_Bugs
+0.07831968672,negligible,1514.5,0.4881813462,no,3 yrs,4 yrs,SLOC_with_Bugs
