@@ -97,6 +97,8 @@ We identified bug-fix commit using two approaches:
 
 # Reproduction steps:
 
+Pre-requisite: Setup `python 3.8.0` locally
+
 To generate the data run:
 1. Extract datasource.zip in the root folder
 2. run
