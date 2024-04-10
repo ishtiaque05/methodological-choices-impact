@@ -58,13 +58,15 @@ class AggregateAnalysis:
         sloc_with_bugs = data[(data["age_threshold"] == age_threshold) & (data["group"] == "sloc_vs_bugCount")]
 
         sns.set_style("whitegrid")
-        sns.set_context(font_scale=3)
+        sns.set_context("talk")
         plt.figure(figsize=(7.5, 6))
 
         sns.ecdfplot(sloc_with_revisions, x=sloc_with_revisions["corr"], linewidth=2, marker=">", markersize=15)
         sns.ecdfplot(sloc_with_bugs, x=sloc_with_bugs["corr"], linewidth=2, marker="o", markersize=15)
         
-       
+        plt.plot(0.22, 0.5, marker='s', markersize=10, color='red')  # 's' is the marker style for square
+        plt.plot(0.15, 0.6, marker='s', markersize=10, color='green')
+
         legend_props = {"weight": "bold", "size": 18, "family": "monospace"}
 
         plt.legend(["#Revisions", "#Bugs"], prop=legend_props, loc="upper left",  frameon=False)
